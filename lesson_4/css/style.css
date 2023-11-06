@@ -1,0 +1,98 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Приктика типів селекторів */
+*{
+   color:green;
+}
+p{
+   color: orange;
+}
+li{
+   color: grey;
+}
+mark{
+   color: black;
+}
+.reference{
+   color:blueviolet;
+}
+.hello-word {
+   color: red;
+}
+.advice{
+   color: blue;
+}
+#back-to-5{
+   color:red;
+}
+#step-5{
+   color: red;
+}
+#up{
+   color: black;
+}
+/* Комбінації селекторів */
+div.test{
+   color: aqua;
+}
+div.logo{
+   color: greenyellow;
+}
+.welcome.practice{
+   color: plum;
+}
+.header,
+.reference,
+span{
+   color: maroon;
+}
+/* Каскадність (вкладеність) селекторів*/
+.test h3{
+   color: steelblue;
+}
+.advice span{
+   color: indianred;
+}
+.advice *{
+   color: skyblue;
+}
+.mark > h3{
+   color: black;
+}
+.test ~ p {
+   color: brown !important;
+}
+.mark ~ p{
+   color: yellow;
+}
+.mark + p{
+   color: purple;
+}
+.advice ~ a{
+   color: lime;
+}
+p.advice ~ p{
+   color: palevioletred;
+}
+p.advice + p{
+   color: grey;
+}
+[href*="ingredients"] {
+   color: palevioletred;
+}
+[id*="cream"] {
+   color: peru;
+}
+[href*="klopotenko"] {
+   color: red;
+}
+#cream-ingred li{
+   color: salmon;
+}
+#cream-ingred {
+   color: salmon;
+}
+.list.ingredients li{
+   color:palegreen;
+}
