@@ -3,16 +3,18 @@
 /* Font New Heterodox Mono */
 @font-face {
    font-family: "New Heterodox Mono";
-   src: url("../fonts/NewHeterodoxMonoA-Book.woff2") format("woff2"),
-   src: url("../fonts/NewHeterodoxMonoA-Book.woff") format("woff");
+   src: 
+      url("../fonts/NewHeterodoxMonoA-Book.woff2") format("woff2"), 
+      url("../fonts/NewHeterodoxMonoA-Book.woff2") format("woff2");
    font-weight: 400;
    font-style: normal;
    font-display: swap;
 }
 @font-face {
    font-family: "New Heterodox Mono";
-   src: url("../fonts/NewHeterodoxMono-Bold.woff2") format("woff2"),
-   src: url("../fonts/NewHeterodoxMono-Bold.woff") format("woff");
+   src: 
+      url("../fonts/NewHeterodoxMono-Bold.woff2") format("woff2"), 
+      url("../fonts/NewHeterodoxMono-Bold.woff") format("woff");
    font-weight: 700;
    font-style: normal;
    font-display: swap;
@@ -20,24 +22,27 @@
 /* Font Mort Modern Pro */
 @font-face {
    font-family: "Mort Modern";
-   src: url("../fonts/MortModern-07Light.woff2") format("woff2");
-   src: url("../fonts/MortModern-07Light.woff") format("woff");
+   src: 
+      url("../fonts/MortModern-07Light.woff2") format("woff2"),
+      url("../fonts/MortModern-07Light.woff") format("woff");
    font-weight: 300;
    font-style: normal;
    font-display: swap;
 }
 @font-face {
    font-family: "Mort Modern";
-   src: url("../fonts/MortModern-07LightItalic.woff2") format("woff2");
-   src: url("../fonts/MortModern-07LightItalic.woff") format("woff");
+   src: 
+      url("../fonts/MortModern-07LightItalic.woff2") format("woff2"),
+      url("../fonts/MortModern-07LightItalic.woff") format("woff");
    font-weight: 300;
    font-style: italic;
    font-display: swap;
 }
 @font-face {
    font-family: "Mort Modern";
-   src: url("../fonts/MortModern-10SemiBold.woff2") format("woff2");
-   src: url("../fonts/MortModern-10SemiBold.woff") format("woff");
+   src: 
+      url("../fonts/MortModern-10SemiBold.woff2") format("woff2"),
+      url("../fonts/MortModern-10SemiBold.woff") format("woff");
    font-weight: 600;
    font-style: normal;
    font-display: swap;
@@ -47,24 +52,27 @@
 /* Fonts Prospectus Pro (для прктики підключення*/
 /* @font-face {
    font-family: "Prospectus";
-   src: url("../fonts/ProspectusProXLDEMO-Regular.woff2") format("woff2");
-   src: url("../fonts/ProspectusProXLDEMO-Regular.woff") format("woff");
+   src: 
+      url("../fonts/ProspectusProXLDEMO-Regular.woff2") format("woff2"),
+      url("../fonts/ProspectusProXLDEMO-Regular.woff") format("woff");
    font-weight: 400;
    font-style: normal;
    font-display: swap;
 }
 @font-face {
    font-family: "Prospectus";
-   src: url("../fonts/ProspectusProXLDEMO-ThinItalic.woff2") format("woff2");
-   src: url("../fonts/ProspectusProXLDEMO-ThinItalic.woff") format("woff");
+   src:
+      url("../fonts/ProspectusProXLDEMO-ThinItalic.woff2") format("woff2"),
+      url("../fonts/ProspectusProXLDEMO-ThinItalic.woff") format("woff");
    font-weight: 100;
    font-style: italic;
    font-display: swap;
 }
 @font-face {
    font-family: "Prospectus";
-   src: url("../fonts/ProspectusProXLDEMO-Bold.woff2") format("woff2");
-   src: url("../fonts/ProspectusProXLDEMO-Bold.woff") format("woff");
+   src: 
+      url("../fonts/ProspectusProXLDEMO-Bold.woff2") format("woff2"),
+      url("../fonts/ProspectusProXLDEMO-Bold.woff") format("woff");
    font-weight: 700;
    font-style: normal;
    font-display: swap;
