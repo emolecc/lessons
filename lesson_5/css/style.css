@@ -1,0 +1,119 @@
+
+/* Підключення штрифтів */
+
+/* Підключення вручну */
+@import url("fonts.css");
+
+/* Підключення через Google fonts*/
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+/* Для практики додала без плагіну */
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;1,700&display=swap');
+
+/* Скидання стилів */
+@import url("reset.css");
+
+header,
+footer{
+   font-family: "Mali", fantasy;
+   font-weight: 300;
+   color: rgba(255, 0, 0, 0.75);
+   line-height: 1.27;
+}
+.hello p{
+   text-decoration: underline;
+   text-shadow: 3px 5px 3px brown;
+}
+.hello p ~ p{
+   text-shadow: none;
+}
+.references .title {
+   font-weight: 700;
+   font-style: italic;
+   color: brown;
+   text-align: center;
+   text-decoration: overline;
+   text-shadow: 3px 3px 10px green,
+   -5px -5px 20px blue;
+   letter-spacing: 10px;
+}
+.references li{
+   text-indent: 15px;
+}
+.references .image{
+   text-align: center;
+}
+.references a{
+   text-decoration: underline;
+   color: blue;
+}
+
+
+.article *{
+   font-family: "Mort Modern", serif;
+   font-weight: 300;
+   line-height: 1.46;
+}
+.article .title{
+   font-weight: 600;
+   line-height: 2.55;
+}
+h1 ~ .image {
+   color: yellowgreen;
+   text-align: center;
+}
+.text p > a{
+   font-style: italic;
+   color: red;
+   text-decoration: underline;
+}
+
+.add,
+.add a {
+   font-family: "New Heterodox Mono";
+   font-weight: 700;
+}
+.add a{
+   text-decoration: underline;
+}
+.add ~ p,
+.add ~ p + p{
+   font-family: "New Heterodox Mono";
+   color: violet;
+}
+.add ~ p + p{
+   color: purple;
+}
+
+.figma1,
+.figma2 {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;
+   line-height: 1.46;
+}
+.figma1 .sub-title,
+.title-h3{
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27;
+}
+.figma1 .sub-title{
+   font-size: 30px;
+   color: #37393F;
+   text-transform: capitalize;
+}
+.figma1 .title-h3 {
+   font-size: 20px;
+   color: #6B77E5;
+}
+.figma2 .sub-title{
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   color: #37393F;
+   line-height: 1.27;
+}
+.figma2 li{
+   font-weight: 500;
+}
