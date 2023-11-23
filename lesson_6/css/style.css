@@ -141,7 +141,7 @@ header span{
    color: black;
    padding: 50px;
    /* margin-top: -50px; */
-   /* display: none; */
+   display: none;
 }
 .practice img{
    max-width: 356px;
