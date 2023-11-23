@@ -1,0 +1,198 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+/* Обнулення стилів */
+@import url("reset.css");
+
+body{
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+}
+/* Стилізація header*/
+header{
+   max-width: 550px;
+   margin: 20px auto;
+   font-family: "DM Serif Text",serif;
+   color: #945D87;
+   font-size: 20px;
+   text-align: center;
+}
+h1{
+   text-shadow: 5px 5px 7px #D71232;
+   margin-bottom: 15px;
+}
+header span{
+   padding: 15px;
+   text-decoration: underline;
+}
+/* Стилізація частини макету 1*/
+#consulting{
+   max-width: 692px;
+   margin: 150px auto 0;
+}
+#consulting > img{
+   max-width: 100%;
+   margin-bottom: 37px;
+}
+.consulting h2{
+   font-family: "Poppins", sans-serif;
+   font-size: 30px;
+   text-transform: capitalize;
+   color: #37393F;
+   line-height: 1.27;
+}
+.benefits-list h2{
+   font-size: 25px;
+}
+#consulting h3{
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   line-height: 1.27;
+}
+#consulting p + h3{
+   color: #6B77E5;
+}
+#consulting h2 + h3{
+   color: #40DDB6;
+}
+#consulting p{
+   line-height: 1.46;
+}
+#consulting h2 + p{
+   margin-top: 14px;
+   margin-bottom: 42px;
+}
+#consulting h3 + p{
+   margin-top: 12px;
+   margin-bottom: 40px;
+}
+#consulting .benefits-list{
+   width: 332px;
+   margin-left: 29px;
+   display: inline-block;
+   /* vertical-align: top; */
+}
+.benefits img{
+   width: 45%;
+}
+.benefits-list h3{
+   margin: 15px auto 21px;
+}
+.benefits-list ul{
+   margin-left: 35px;
+}
+.benefits-list li{
+   padding: 2.5px;
+   margin-bottom: 30px;
+}
+.benefits-list .last-item{
+   margin-bottom: 0;
+}
+/* Стилізація частини макету 2*/
+.wrapper-jewellery {
+   background-color: #FFF9F4;
+   padding: 140px 0;
+}
+.jewellery{
+   margin: 0 auto;
+   max-width: 1170px;
+}
+.jewellery .text{
+   display: inline-block;
+   padding: 21px 0;
+   margin-right: 38px;
+   max-width: 563px; 
+}
+.jewellery .pictures{
+   display: inline-block;
+   vertical-align: top;
+   width: 48%;
+}
+.jewellery img{
+   width: 46%;
+}
+.jewellery img + img{
+   margin-left: 22px;
+}
+.jewellery .text h4{
+   color: #D06B00;
+   font-size: 28px;
+   text-transform: uppercase;
+   margin-bottom: 13px;
+}
+.jewellery .text h2{
+   font-family: "DM Serif Text",serif;
+   font-size: 59px;
+   line-height: 1.46;
+   text-transform: capitalize;
+   color: #0E333D;
+   margin-bottom: 25px;
+}
+.jewellery .text p{
+   font-size: 20px;
+   line-height: 1.8;
+   color: #474747;
+}
+/* Стилізація practice*/
+.practice{
+   background-color: #37393F;
+   color: black;
+   padding: 50px;
+   /* margin-top: -50px; */
+   /* display: none; */
+}
+.practice img{
+   max-width: 356px;
+   height: 475px;
+   margin-bottom: -40px;
+}
+.block,
+.block1,
+.block2{
+   padding: 20px 20px 1px 20px;
+}
+.block{
+   background-color: #6B77E5;
+}
+.block p,
+.block1 p,
+.block2 p{
+   margin-bottom: 20px;
+}
+.block .unique{
+   margin-left: 30%;
+}
+.block1{
+   /* width: 100%; */
+   margin-right: 200px;
+   width: 600px;
+}
+.block2{
+   width: 600px;
+   height: 100px;
+   box-sizing: content-box;
+   overflow: hidden;
+   overflow-y: scroll;
+}
+.inline{
+   background-color: #945D87;
+   /* vertical-align: middle; */
+}
+.inline-block{
+   background-color:#0E333D;
+   padding: 2%;
+   vertical-align: bottom; 
+   width: 100%;
+}
+footer a img{
+   height:50px;
+   width: 50px;
+}
+footer a div.link{
+   display:inline-block;
+}
+footer{
+   text-align: center;
+}
